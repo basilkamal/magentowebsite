@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-30T08:28:44 EET" name="Default suite" finished-at="2024-01-30T08:29:34 EET" duration-ms="49631">
+  <suite started-at="2024-01-31T11:54:44 EET" name="Default suite" finished-at="2024-01-31T11:55:59 EET" duration-ms="75348">
     <groups>
     </groups>
-    <test started-at="2024-01-30T08:28:44 EET" name="Default test" finished-at="2024-01-30T08:29:34 EET" duration-ms="49631">
+    <test started-at="2024-01-31T11:54:44 EET" name="Default test" finished-at="2024-01-31T11:55:59 EET" duration-ms="75348">
       <class name="MyTestCasses.SignUp">
-        <test-method is-config="true" signature="MySetub()[pri:0, instance:MyTestCasses.SignUp@40e10ff8]" started-at="2024-01-30T08:28:44 EET" name="MySetub" finished-at="2024-01-30T08:28:44 EET" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="MySetub()[pri:0, instance:MyTestCasses.SignUp@7e38a7fe]" started-at="2024-01-31T11:54:44 EET" name="MySetub" finished-at="2024-01-31T11:54:44 EET" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MySetub -->
-        <test-method signature="MyFirstTest()[pri:0, instance:MyTestCasses.SignUp@40e10ff8]" started-at="2024-01-30T08:28:44 EET" name="MyFirstTest" finished-at="2024-01-30T08:29:34 EET" duration-ms="49319" status="PASS">
+        <test-method signature="MyFirstTest()[pri:1, instance:MyTestCasses.SignUp@7e38a7fe]" started-at="2024-01-31T11:54:44 EET" name="MyFirstTest" finished-at="2024-01-31T11:55:29 EET" duration-ms="44780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MyFirstTest -->
+        <test-method signature="logoutprocessTest()[pri:2, instance:MyTestCasses.SignUp@7e38a7fe]" started-at="2024-01-31T11:55:29 EET" name="logoutprocessTest" finished-at="2024-01-31T11:55:36 EET" duration-ms="7004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutprocessTest -->
+        <test-method signature="loginprocessTest()[pri:3, instance:MyTestCasses.SignUp@7e38a7fe]" started-at="2024-01-31T11:55:36 EET" name="loginprocessTest" finished-at="2024-01-31T11:55:47 EET" duration-ms="11591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginprocessTest -->
+        <test-method signature="addItemRandomly()[pri:4, instance:MyTestCasses.SignUp@7e38a7fe]" started-at="2024-01-31T11:55:47 EET" name="addItemRandomly" finished-at="2024-01-31T11:55:59 EET" duration-ms="11708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemRandomly -->
       </class> <!-- MyTestCasses.SignUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

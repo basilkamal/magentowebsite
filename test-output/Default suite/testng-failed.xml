@@ -6,7 +6,7 @@
       <class name="MyTestCasses.SignUp">
         <methods>
           <include name="MySetub"/>
-          <include name="MyFirstTest"/>
+          <include name="addItemRandomly"/>
         </methods>
       </class> <!-- MyTestCasses.SignUp -->
     </classes>
